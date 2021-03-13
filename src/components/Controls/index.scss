@@ -1,0 +1,12 @@
+.control-wrap {
+  width: 100%;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  //   border: 1px solid white;
+  img {
+    width: 2rem;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,35 @@
+.button-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //   border: 1px solid white;
+  flex-direction: column;
+  padding: 0.5rem;
+  .timer-change-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    #break-increment,
+    #session-increment {
+      margin: 1rem;
+      padding: 0.5rem;
+      font-size: 2rem;
+      width: 1rem;
+      height: 1rem;
+      cursor: pointer;
+    }
+    #break-length,
+    #session-length {
+      font-size: 1.5rem;
+    }
+    #break-decrement,
+    #session-decrement {
+      margin: 1rem;
+      padding: 0.5rem;
+      font-size: 2rem;
+      width: 1rem;
+      height: 1rem;
+      cursor: pointer;
+    }
+  }
+}
